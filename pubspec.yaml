@@ -1,0 +1,38 @@
+name: flutter_workshop
+description: A simple app for Flutter Workshop.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^0.12.0+2
+
+  cupertino_icons: ^0.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+
+  fonts:
+    - family: GothamRndBold
+      fonts:
+        - asset: assets/fonts/GothamRnd-Bold.otf
+    - family: GothamRndBook
+      fonts:
+        - asset: assets/fonts/GothamRnd-Book.otf
+    - family: GothamRndLight
+      fonts:
+        - asset: assets/fonts/GothamRnd-Light.otf
+    - family: GothamRndMedium
+      fonts:
+        - asset: assets/fonts/GothamRnd-Medium.otf
