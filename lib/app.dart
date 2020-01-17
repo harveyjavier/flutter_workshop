@@ -3,15 +3,6 @@ import 'package:flutter/material.dart';
 
 import 'package:flutter_workshop/home.dart';
 import 'package:flutter_workshop/exercises/1.dart';
-import 'package:flutter_workshop/exercises/2.dart';
-import 'package:flutter_workshop/exercises/3.dart';
-import 'package:flutter_workshop/exercises/4.dart';
-import 'package:flutter_workshop/exercises/5.dart';
-import 'package:flutter_workshop/exercises/6.dart';
-import 'package:flutter_workshop/exercises/7.dart';
-// import 'package:flutter_workshop/exercises/8.dart';
-// import 'package:flutter_workshop/exercises/9.dart';
-// import 'package:flutter_workshop/exercises/10.dart';
 
 class App extends StatelessWidget {
   final materialApp = MaterialApp(
@@ -30,12 +21,6 @@ class App extends StatelessWidget {
     routes: <String, WidgetBuilder>{
       "routeHome": (BuildContext context) => Home(),
       "routeOne": (BuildContext context) => One(),
-      "routeTwo": (BuildContext context) => Two(),
-      "routeThree": (BuildContext context) => Three(),
-      "routeFour": (BuildContext context) => Four(),
-      "routeFive": (BuildContext context) => Five(),
-      "routeSix": (BuildContext context) => Six(),
-      "routeSeven": (BuildContext context) => Seven(),
     },
   );
 
