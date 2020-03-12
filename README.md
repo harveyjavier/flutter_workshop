@@ -21,13 +21,13 @@ A simple app with a breakdown of exercises for Bicol IT Flutter Workshop
 1. Clone the project repository.
 
 ```
-git clone https://github.com/harveyjavier/chem_clock.git
+git clone https://github.com/harveyjavier/flutter_workshop.git
 ```
 
 2. From the project root, open chem_clock directory.
 
 ```
-cd chem_clock
+cd flutter_workshop
 ```
 
 3. Run flutter.
