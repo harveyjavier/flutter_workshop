@@ -24,7 +24,7 @@ A simple app with a breakdown of exercises for Bicol IT Flutter Workshop
 git clone https://github.com/harveyjavier/flutter_workshop.git
 ```
 
-2. From the project root, open chem_clock directory.
+2. From the project root, open flutter_workshop directory.
 
 ```
 cd flutter_workshop
